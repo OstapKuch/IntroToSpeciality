@@ -6,12 +6,12 @@ public:
 
     int public_1;
     string public_2;
-    void getClass();
+    void getAllClassFields();
     string getName();
     int getPower();
     int getTurns();
     Chainsaw();
-    Chainsaw(string Name, int Power, int Turns, int prot_1, int prot_2,  int pub_1, string pub_2);
+    Chainsaw(string name, int power, int turns, int protected_1, int protected_2, int public_1, string public_2);
     ~Chainsaw();
 
 private:
@@ -26,5 +26,3 @@ protected:
     int protected_2;
 
 };
-
-
